@@ -7,7 +7,7 @@ import java.lang.reflect.Type;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class Json {
 

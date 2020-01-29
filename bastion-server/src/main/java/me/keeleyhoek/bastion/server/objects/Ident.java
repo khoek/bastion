@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 @Entity
 @Table(name = "Identity")

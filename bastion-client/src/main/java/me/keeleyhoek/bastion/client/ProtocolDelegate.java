@@ -6,7 +6,7 @@ import me.keeleyhoek.bastion.client.objects.Token;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public abstract class ProtocolDelegate {
 

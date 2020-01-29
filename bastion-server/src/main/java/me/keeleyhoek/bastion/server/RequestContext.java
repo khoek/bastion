@@ -16,7 +16,7 @@ import me.keeleyhoek.bastion.server.objects.Token;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class RequestContext {
     
@@ -97,7 +97,7 @@ public class RequestContext {
 
     public <T extends Serializable> T maybeLookupByField(Class<T> clazz, String fieldKey, String field)
             throws IllegalParameterException {
-        String value = RequestContext.this.maybeGetParam(String.class, fieldKey);
+        String value = maybeGetParam(String.class, fieldKey);
 
         if (value == null) {
             return null;

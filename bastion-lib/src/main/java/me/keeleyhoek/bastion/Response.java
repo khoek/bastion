@@ -8,7 +8,7 @@ import java.lang.reflect.Type;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  * @param <T>
  */
 public class Response<T> {
@@ -95,6 +95,7 @@ public class Response<T> {
 
     public static enum Status {
 
+        CLIENT_EXCEPTION,
         SUCCESS,
         ACCESS_DISALLOWED,
         MISSING_PARAMETER,

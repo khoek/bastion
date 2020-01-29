@@ -6,7 +6,7 @@ import me.keeleyhoek.bastion.server.Packable;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 @Entity
 @Table(name = "Token")

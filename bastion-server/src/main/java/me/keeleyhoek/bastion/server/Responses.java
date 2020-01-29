@@ -7,7 +7,7 @@ import me.keeleyhoek.bastion.Response.Status;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class Responses {
     public static Response error(Status err) {

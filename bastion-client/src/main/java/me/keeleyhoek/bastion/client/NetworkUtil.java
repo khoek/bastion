@@ -4,7 +4,7 @@ import me.keeleyhoek.bastion.client.protocol.HttpProtocolDelegate;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class NetworkUtil {
 

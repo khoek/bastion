@@ -2,7 +2,7 @@ package me.keeleyhoek.bastion.server;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public interface Packable {
     public Object pack();

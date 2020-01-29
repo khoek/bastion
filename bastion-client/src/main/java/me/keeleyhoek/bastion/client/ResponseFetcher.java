@@ -2,6 +2,8 @@ package me.keeleyhoek.bastion.client;
 
 import java.awt.EventQueue;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.lang.reflect.ParameterizedType;
 import java.util.HashMap;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -113,7 +115,11 @@ public class ResponseFetcher {
                     handleError(response.getStatus(), response.getMessage());
                 }
             } catch (IOException ex) {
-                throw new Error(ex);
+                StringWriter sw = new StringWriter();
+                PrintWriter ps = new PrintWriter(sw);
+                ex.printStackTrace(ps);
+                ps.close();
+                handleError(Response.Status.CLIENT_EXCEPTION, sw.toString());
             }
         }
 

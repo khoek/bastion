@@ -2,7 +2,7 @@ package me.keeleyhoek.bastion.client.objects;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class Token {
 

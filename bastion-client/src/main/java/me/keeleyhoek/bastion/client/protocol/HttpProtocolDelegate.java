@@ -16,7 +16,7 @@ import me.keeleyhoek.bastion.client.ProtocolDelegate;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class HttpProtocolDelegate extends ProtocolDelegate {
 

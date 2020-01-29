@@ -5,7 +5,7 @@ import me.keeleyhoek.bastion.server.objects.Ident;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public abstract class AuthorisedWebService extends WebService {
 

@@ -12,7 +12,7 @@ import javax.persistence.criteria.Root;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class DBManager {
 

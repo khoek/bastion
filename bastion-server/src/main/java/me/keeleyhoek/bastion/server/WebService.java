@@ -11,7 +11,7 @@ import me.keeleyhoek.bastion.Response;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public abstract class WebService extends HttpServlet {
     

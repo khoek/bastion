@@ -4,7 +4,7 @@ import me.keeleyhoek.bastion.Response;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class MissingParameterException extends ParameterException {
 

@@ -4,7 +4,7 @@ import javax.persistence.Persistence;
 
 /**
  *
- * @author escortkeel
+ * @author khoek
  */
 public class Bastion {
 
